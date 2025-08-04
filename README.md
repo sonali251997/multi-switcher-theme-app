@@ -66,3 +66,10 @@ Other project files:
 npm install
 # or
 yarn install
+
+## 🔍 Preview
+
+![Multi-Switcher Theme App Preview](screenshots/image-1.png)
+![Multi-Switcher Theme App Preview](screenshots/image-1.png)
+![Multi-Switcher Theme App Preview](screenshots/image-1.png)
+
