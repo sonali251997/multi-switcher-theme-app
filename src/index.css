@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "./style.css";
+
+:root,html,body{
+  margin: 0;
+  padding: 0;
+}
+
+::view-transition-old(page),
+::view-transition-new(page) {
+  animation-duration: 300ms;
+}
+
+::view-transition-old(page) {
+  animation-name: fade-out;
+}
+
+::view-transition-new(page) {
+  animation-name: fade-in;
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+

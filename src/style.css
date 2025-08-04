@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-bg: #ffffff;
+    --color-text: #1a1a1a;
+}
+
+.theme1 {
+    --color-bg-100: #0f1117;
+    --color-bg-90: #181b22;
+    --color-bg-80: #20242c;
+    --color-bg-70: #2a2f38;
+    --color-bg-60: #353a44;
+    --color-bg-50: #404652;
+    --color-bg-40: #4b515f;
+    --color-bg-30: #565c6c;
+    --color-bg-20: #616879;
+    --color-bg-10: #6c7386;
+
+    /* 💡 Text Shades */
+    --color-text-100: #ffffff;
+    --color-text-90: #f2f4f8;
+    --color-text-80: #e4e7eb;
+    --color-text-70: #d6d9df;
+    --color-text-60: #c8ccd4;
+    --color-text-50: #babec9;
+    --color-text-40: #acb1be;
+    --color-text-30: #9ea3b3;
+    --color-text-20: #9097a8;
+    --color-text-10: #828b9d;
+
+    /* 🔵 Primary (Buttons, Links) */
+    --color-primary-100: #3b82f6;
+    --color-primary-90: #60a5fa;
+    --color-primary-80: #93c5fd;
+    --color-primary-70: #bfdbfe;
+    --color-primary-60: #dbeafe;
+
+    /* ✅ Success */
+    --color-success-100: #10b981;
+    --color-success-90: #34d399;
+    --color-success-80: #6ee7b7;
+
+    /* ❌ Error */
+    --color-error-100: #ef4444;
+    --color-error-90: #f87171;
+    --color-error-80: #fca5a5;
+
+    /* ⚠️ Warning */
+    --color-warning-100: #f59e0b;
+    --color-warning-90: #fbbf24;
+    --color-warning-80: #fde68a;
+
+    /* 🟣 Focus/Accent */
+    --color-accent-100: #8b5cf6;
+    --color-accent-90: #a78bfa;
+    --color-accent-80: #c4b5fd;
+
+    /* 🎯 UI Borders / Outlines */
+    --color-border: #2e3440;
+    --color-focus-ring: #3b82f6;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.55);
+}
+
+.theme2 {
+    --color-bg-100: #0e0c18;
+    --color-bg-90: #161320;
+    --color-bg-80: #1e1a29;
+    --color-bg-70: #262132;
+    --color-bg-60: #2e283b;
+    --color-bg-50: #362f44;
+    --color-bg-40: #3e364d;
+    --color-bg-30: #463d56;
+    --color-bg-20: #4e445f;
+    --color-bg-10: #574b68;
+
+    /* 💡 Text Shades: Off-White to Lavender-Gray */
+    --color-text-100: #ffffff;
+    --color-text-90: #f4f2fa;
+    --color-text-80: #e2dff0;
+    --color-text-70: #cfcbe6;
+    --color-text-60: #bcb7dc;
+    --color-text-50: #a9a3d2;
+    --color-text-40: #968fc8;
+    --color-text-30: #837bbc;
+    --color-text-20: #7067b2;
+    --color-text-10: #5d53a8;
+
+    /* 🟦 Primary: Teal for Action/Highlight */
+    --color-primary-100: #14b8a6;
+    /* teal-500 */
+    --color-primary-90: #2dd4bf;
+    --color-primary-80: #5eead4;
+    --color-primary-70: #99f6e4;
+    --color-primary-60: #ccfbf1;
+
+    /* ✅ Success: Emerald */
+    --color-success-100: #22c55e;
+    --color-success-90: #4ade80;
+    --color-success-80: #86efac;
+
+    /* ❌ Error: Rose */
+    --color-error-100: #f43f5e;
+    --color-error-90: #fb7185;
+    --color-error-80: #fda4af;
+
+    /* ⚠️ Warning: Amber */
+    --color-warning-100: #f59e0b;
+    --color-warning-90: #fbbf24;
+    --color-warning-80: #fde68a;
+
+    /* 🎯 Accent / Focus: Deep Violet */
+    --color-accent-100: #7c3aed;
+    --color-accent-90: #a78bfa;
+    --color-accent-80: #c4b5fd;
+
+    /* 🎯 Borders and Focus Ring */
+    --color-border: #312e81;
+    --color-focus-ring: #14b8a6;
+
+    /* ☁️ Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.55);
+
+    /* 🌈 Glowing Outlines */
+    --shadow-glow-primary: 0 0 0 4px rgba(20, 184, 166, 0.35);
+    /* teal */
+    --shadow-glow-success: 0 0 0 4px rgba(34, 197, 94, 0.3);
+    --shadow-glow-error: 0 0 0 4px rgba(244, 63, 94, 0.3);
+    --shadow-glow-accent: 0 0 0 4px rgba(124, 58, 237, 0.3);
+    /* violet */
+}
+
+.theme3 {
+    --color-bg-100: #ffffff;
+    --color-bg-90: #f9fafb;
+    --color-bg-80: #f3f4f6;
+    --color-bg-70: #e5e7eb;
+    --color-bg-60: #d1d5db;
+    --color-bg-50: #9ca3af;
+    --color-bg-40: #6b7280;
+    --color-bg-30: #4b5563;
+    --color-bg-20: #374151;
+    --color-bg-10: #1f2937;
+
+    /* 🖋️ Text Shades: Dark Neutral to Mid Gray */
+    --color-text-100: #111827;
+    /* main text */
+    --color-text-90: #1f2937;
+    --color-text-80: #374151;
+    --color-text-70: #4b5563;
+    --color-text-60: #6b7280;
+    --color-text-50: #9ca3af;
+    --color-text-40: #d1d5db;
+    --color-text-30: #e5e7eb;
+    --color-text-20: #f3f4f6;
+    --color-text-10: #f9fafb;
+
+    /* 🔵 Primary: Indigo Blue */
+    --color-primary-100: #3b82f6;
+    --color-primary-90: #60a5fa;
+    --color-primary-80: #93c5fd;
+    --color-primary-70: #bfdbfe;
+    --color-primary-60: #dbeafe;
+
+    /* ✅ Success: Emerald */
+    --color-success-100: #10b981;
+    --color-success-90: #34d399;
+    --color-success-80: #6ee7b7;
+
+    /* ❌ Error: Red/Rose */
+    --color-error-100: #ef4444;
+    --color-error-90: #f87171;
+    --color-error-80: #fca5a5;
+
+    /* ⚠️ Warning: Amber */
+    --color-warning-100: #f59e0b;
+    --color-warning-90: #fbbf24;
+    --color-warning-80: #fde68a;
+
+    /* 🎯 Accent: Violet */
+    --color-accent-100: #7c3aed;
+    --color-accent-90: #a78bfa;
+    --color-accent-80: #c4b5fd;
+
+    /* 🎯 Borders and Focus */
+    --color-border: #d1d5db;
+    --color-focus-ring: #3b82f6;
+
+    /* ☁️ Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.2);
+
+    /* 🌈 Glows (used on focus/active states) */
+    --shadow-glow-primary: 0 0 0 4px rgba(59, 130, 246, 0.25);
+    --shadow-glow-success: 0 0 0 4px rgba(16, 185, 129, 0.2);
+    --shadow-glow-error: 0 0 0 4px rgba(239, 68, 68, 0.2);
+    --shadow-glow-accent: 0 0 0 4px rgba(124, 58, 237, 0.2);
+}
