@@ -69,7 +69,7 @@ yarn install
 
 ## 🔍 Preview
 
-![Preview](screenshots/image-1.png)
-![Preview](screenshots/image-2.png)
-![Preview](screenshots/image-3.png)
+![Preview](public/screenshots/image-1.png)
+![Preview](public/screenshots/image-2.png)
+![Preview](public/screenshots/image-3.png)
 
