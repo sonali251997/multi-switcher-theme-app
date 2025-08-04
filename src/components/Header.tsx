@@ -1,11 +1,16 @@
-import React, { type ChangeEvent } from "react";
-import { useDispatch } from "react-redux";
+import React, { use, useEffect, type ChangeEvent } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router";
 import { setTheme } from "../slices/app/appSlice";
+import { useAppDispatch, useAppSelector } from "../hooks";
 
 const Header = () => {
+    const value = useAppSelector((state) => {
+        return state.app.theme;
+    })
 
-    const dispatch = useDispatch();
+    const dispatch = useAppDispatch();
+
 
     const selectHandler = (e: any) => {
         const { value } = e.target;
@@ -15,7 +20,7 @@ const Header = () => {
     return (
         <>
             <div className="px-6 max-w-7xl mx-auto app-header flex gap-4 items-center">
-                <div>Logo</div>
+                <div></div>
                 <div className="space-box grow"></div>
                 <div className="flex gap-6 text-gray-700 text-lg font-medium">
                     <span className="cursor-pointer hover:text-[var(--color-text-100)]"><NavLink to={"/"} viewTransition
@@ -41,6 +46,7 @@ const Header = () => {
                             id="theme"
                             name="theme"
                             onChange={selectHandler}
+                            value={value}
                             className="block w-full appearance-none rounded-md border border-gray-300 bg-white px-4 py-2 pr-10 text-gray-800 shadow-sm focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:text-sm"
                         >
                             <option value="theme1">Theme 1</option>

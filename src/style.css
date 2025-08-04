@@ -7,7 +7,8 @@
     --color-text: #1a1a1a;
 }
 
-.theme1 {
+.theme3 {
+    font-family: 'Pacifico', cursive;
     --color-bg-100: #0f1117;
     --color-bg-90: #181b22;
     --color-bg-80: #20242c;
@@ -69,6 +70,9 @@
 }
 
 .theme2 {
+
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
     --color-bg-100: #0e0c18;
     --color-bg-90: #161320;
     --color-bg-80: #1e1a29;
@@ -139,7 +143,9 @@
     /* violet */
 }
 
-.theme3 {
+.theme1 {
+    font-family: 'Inter', sans-serif;
+
     --color-bg-100: #ffffff;
     --color-bg-90: #f9fafb;
     --color-bg-80: #f3f4f6;
