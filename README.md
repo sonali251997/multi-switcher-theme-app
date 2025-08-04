@@ -8,8 +8,8 @@ A fully responsive, scalable React + TypeScript + Vite application that supports
 
 
 ![Preview](/public/screenshots/image-3.png)
-![Multi-Switcher Theme App Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-1.png)
-![Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-2.png)
+![Multi-Switcher Theme App Preview](/public/screenshots/image-1.png)
+![Preview](/public/screenshots/image-2.png)
 
 
 ---
