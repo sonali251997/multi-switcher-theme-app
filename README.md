@@ -1,69 +1,68 @@
-# React + TypeScript + Vite
+# 🎨 Multi-Switcher Theme App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive, scalable React + TypeScript + Vite application that supports **dynamic theming**. Users can seamlessly switch between **three distinct themes** that alter not just colors, but also layout structure, fonts, and spacing.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🎛️ **Theme Switcher**: Choose from **Theme 1**, **Theme 2**, and **Theme 3** using a dropdown in the header.
+- 🧠 **Redux + Redux Persist**: Global theme state is managed via Redux and saved in localStorage using Redux Persist.
+- 🌐 **Multi-Page Routing**: Handled with React Router.
+- 💡 **Full Theme Customization**: Each theme updates layout, fonts, spacing, and visual structure.
+- 📱 **Fully Responsive**: Works seamlessly across mobile, tablet, and desktop devices.
+- ⚡ **Vite Powered**: Super-fast development experience.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🏗️ Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- **React** (with TypeScript)
+- **Vite** (build tool)
+- **Redux** (state management)
+- **Redux Persist** (persist theme state)
+- **React Router** (client-side routing)
+- **Tailwind CSS** (utility-first CSS framework)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 Folder Structure
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+src/
+├── assets/ # Static assets (images, icons, etc.)
+├── components/ # Reusable UI components (e.g., ThemeDropdown)
+├── context/ # Context providers if needed
+├── layout/ # Common layout wrappers (Header, Footer, etc.)
+├── modals/ # Modal components
+├── modules/ # Feature-specific modules/pages
+├── slices/ # Redux slices (e.g., themeSlice.ts)
+├── store/ # Redux store setup
+├── thunks/ # Redux thunks (for async logic, if used)
+├── utils/ # Utility functions/helpers
+├── App.tsx # App component with router setup
+├── main.tsx # Entry point with ReactDOM + Redux Provider
+├── modal.ts # Modal type definitions or logic
+├── hooks.ts # Custom hooks
+├── style.css # Global styles (optional, along with Tailwind)
+├── index.css # Tailwind base styles
+└── vite-env.d.ts # Vite environment type definitions
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Other project files:
+├── tailwind.config.ts # Tailwind configuration
+├── vite.config.ts # Vite configuration
+├── tsconfig*.json # TypeScript configurations
+├── .eslintrc.js # Linting rules
+├── .gitignore
+├── index.html # HTML entry point
+└── README.md # Project documentation
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
