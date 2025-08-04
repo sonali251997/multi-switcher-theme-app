@@ -1,6 +1,16 @@
+
+
 # 🎨 Multi-Switcher Theme App
 
 A fully responsive, scalable React + TypeScript + Vite application that supports **dynamic theming**. Users can seamlessly switch between **three distinct themes** that alter not just colors, but also layout structure, fonts, and spacing.
+
+---
+
+
+## 👩‍💻 Author
+
+**Sonali Prajapati**  
+*Role: Frontend Developer*
 
 ---
 
