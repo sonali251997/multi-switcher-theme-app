@@ -4,6 +4,16 @@ A fully responsive, scalable React + TypeScript + Vite application that supports
 
 ---
 
+## 🔍 Preview
+
+![Multi-Switcher Theme App Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-1.png)
+![Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-2.png)
+![Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-3.png)
+
+
+
+---
+
 ## 📌 Features
 
 - 🎛️ **Theme Switcher**: Choose from **Theme 1**, **Theme 2**, and **Theme 3** using a dropdown in the header.
@@ -67,9 +77,4 @@ npm install
 # or
 yarn install
 
-## 🔍 Preview
-
-![Multi-Switcher Theme App Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-1.png)
-![Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-2.png)
-![Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-3.png)
 
