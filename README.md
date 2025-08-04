@@ -69,7 +69,7 @@ yarn install
 
 ## 🔍 Preview
 
-![Preview](public/screenshots/image-1.png)
+![Multi-Switcher Theme App Preview](/screenshots/image-1.png)
 ![Preview](public/screenshots/image-2.png)
 ![Preview](public/screenshots/image-3.png)
 
