@@ -69,7 +69,7 @@ yarn install
 
 ## 🔍 Preview
 
-![Multi-Switcher Theme App Preview](https://github.com/sonali251997/multi-switcher-theme-app/screenshots/image-1.png)
-![Preview](/screenshots/image-2.png)
-![Preview](/screenshots/image-3.png)
+![Multi-Switcher Theme App Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-1.png)
+![Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-2.png)
+![Preview](https://github.com/sonali251997/multi-switcher-theme-app/blob/main/public/screenshots/image-3.png)
 
