@@ -1,5 +1,4 @@
-import { asyncThunkCreator, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import axios from "axios";
+import {createSlice } from "@reduxjs/toolkit";
 import { getProduct } from "../../thunks/productThunk";
 
 const initialState = {
@@ -17,17 +16,13 @@ const productSlice = createSlice({
         builder
         .addCase(getProduct.pending,(state)=>{
             state.loader = true;
-            console.log("pending");
         })
         .addCase(getProduct.fulfilled,(state,{payload})=>{
-            console.log("payload",payload.products)
             state.loader = false;
             state.products = payload.products;
-            console.log("aciton",payload);
         })
-        .addCase(getProduct.rejected,(state,action)=>{
+        .addCase(getProduct.rejected,(state)=>{
             state.loader = false;
-            console.log("rejected");
         })
     }
 })

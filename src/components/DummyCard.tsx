@@ -1,17 +1,8 @@
-import React, { type FC } from "react";
+import { type FC } from "react";
 import type { DummyCardProps } from "../modals/modals";
 
 const DummyCard: FC<DummyCardProps> = ({ id, title, image, price, description, brand, model, color, category, discount }) => {
-    console.log("title", title);
     return (
-        // <div
-        //     className="bg-white rounded-2xl shadow p-5 hover:shadow-lg transition-shadow duration-300"
-        // >
-        //     <h2 className="text-xl font-semibold text-gray-800 mb-2">{title}</h2>
-        //     <p className="text-gray-500">
-        //         {description}
-        //     </p>
-        // </div>
         <div className="max-w-sm rounded-2xl shadow-[var(--shadow-lg)] overflow-hidden  bg-[var(--color-bg-80)]">
             <img className="w-full h-48 object-contain bg-white" src={image} alt={title} />
             <div className="p-4 space-y-2">

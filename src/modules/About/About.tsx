@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import { useEffect } from "react"
 import { DummyCard, Header } from "../../components";
 import { getProduct } from "../../thunks/productThunk";
 import type { DummyCardProps } from "../../modals/modals";
@@ -7,7 +7,6 @@ import { useAppDispatch, useAppSelector } from "../../hooks";
 const About = () => {
      const dispatch = useAppDispatch();
     const products = useAppSelector(state=>{
-        console.log("state",state.product.products);
         return state.product.products
     });
 

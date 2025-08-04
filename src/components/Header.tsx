@@ -1,5 +1,3 @@
-import React, { use, useEffect, type ChangeEvent } from "react";
-import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router";
 import { setTheme } from "../slices/app/appSlice";
 import { useAppDispatch, useAppSelector } from "../hooks";

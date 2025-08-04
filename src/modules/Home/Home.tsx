@@ -1,6 +1,5 @@
-import React, { useEffect } from "react"
+import { useEffect } from "react"
 import {DummyCard, Header} from "../../components";
-import { useDispatch, useSelector } from "react-redux";
 import { getProduct } from "../../thunks/productThunk";
 import type { DummyCardProps } from "../../modals/modals";
 import { useAppDispatch, useAppSelector } from "../../hooks";
@@ -8,7 +7,6 @@ import { useAppDispatch, useAppSelector } from "../../hooks";
 const Home = () => {
     const dispatch = useAppDispatch();
     const products = useAppSelector(state=>{
-        console.log("state",state.product.products);
         return state.product.products
     });
 

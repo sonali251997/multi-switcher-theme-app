@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect} from 'react'
+import React, { Suspense} from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router';
 import {  useSelector } from 'react-redux';
@@ -15,10 +15,6 @@ function App() {
           return state.app.theme;
       });
   
-      useEffect(() => {
-          console.log("theme", themeName);
-      }, [themeName]);
-
   return (
     <>
     <div className={themeName}>
